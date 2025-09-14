@@ -9,6 +9,10 @@ This script provides various methods to automatically rename files in a folder:
 4. Change case (uppercase/lowercase)
 5. Remove unwanted characters
 6. Format with date/time
+
+select the file renaming method and options via command line prompts.
+It also includes a preview of changes before execution.
+
 """
 
 import os
