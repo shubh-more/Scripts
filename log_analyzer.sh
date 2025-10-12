@@ -7,7 +7,7 @@ TODAY=$(date +"%Y-%m-%d")
 sudo mkdir -p /var/log/backup 
 
 if [ ! -f "$LOG_FILE" ]; then
-    echo "[$TODAY] Log file not found!" >> "$REPORT_FILE"
+    echo "[$TODAY] Log file not found!" >> sudo tee -a "$REPORT_FILE"
     exit 1
 fi
 
