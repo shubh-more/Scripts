@@ -12,3 +12,4 @@ if [ ! -f "$LOG_FILE" ]; then
 fi
 
 echo "Strating the applicatio">>/var/log/app.log
+print(Completed)
